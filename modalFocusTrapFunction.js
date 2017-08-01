@@ -1,4 +1,4 @@
-function trapTab(modalClassname) {
+function modalFocusTrapFunction(modalClassname) {
   setTimeout(function(){
     var focusableElementsString = "a[href], area[href], input:not([disabled]), select:not([disabled]), textarea:not([disabled]), button:not([disabled]), iframe, object, embed, *[tabindex], *[contenteditable]";
     $('.' + modalClassname).keydown(function(evt){
